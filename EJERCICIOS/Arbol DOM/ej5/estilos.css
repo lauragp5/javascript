@@ -1,0 +1,18 @@
+/*
+Usando CSS, coloca un fondo, un borde, una anchura y un color/tam de letra para esa clase.*/
+
+.uno{
+    background-color: lightblue;
+    border: solid black 3px;
+    width: 500px;
+    color: black;
+    font-size: medium;
+}
+
+.dos{
+    background-color: lightpink;
+    border: solid magenta 3px;
+    width: 500px;
+    color: black;
+    font-size:large;
+}
