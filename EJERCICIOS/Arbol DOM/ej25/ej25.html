@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <script src ="ej25.js"></script>
+</head>
+<body>
+    <style>
+        ul{
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+            width: 400px;
+            background-color: rgb(219, 217, 217);
+            border-radius: 3%;
+
+        }
+
+        li{
+            font-size: larger;
+            padding: 15px;
+            
+        }
+
+        li:nth-of-type(2n){
+            background-color: rgb(248, 246, 246);
+        }
+        li:nth-of-type(2n+1){
+            background-color: #FF0;
+        }
+
+        button{
+            font-size: larger;
+            margin-right: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <ul id="lista">
+        <li> <input type="radio"> Ejercicios</li>
+        <li> <input type="radio">Compra</li>
+        <li> <input type="radio">Deporte</li>
+        <li> <input type="radio">Lavar la ropa</li>
+        <li> <input type="radio">Poner lavavajillas</li>
+        <li> <input type="radio">Descambiar ropa</li>
+        <li> <input type="radio">Pasear al perro</li>
+    </ul>
+
+    <button id="aPrincipio">Añadir Tarea Principio</button>
+    <button id="aFinal">Añadir Tarea Final</button>
+    <br>
+    <button id="eUltima">Eliminar Ultima Tarea</button>
+    <button id="ePrimera">Eliminar Primera Tarea</button>
+</body>
+</html>
